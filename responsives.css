@@ -2,6 +2,8 @@
 /*----------------------------------------------BELOW 400PX---------------------------------------------------- */
 @media screen and (max-width: 400px){
     /*----------------------------------------------HOME---------------------------------------------------- */
+     #edubefore{
+        margin-top: 0px!important;}
     .bannerContent{
         color: whitesmoke;
         width: 300px;
@@ -108,18 +110,15 @@
     }
 /*----------------------------------------------SOCIAL MEDIA BAR---------------------------------------------------- */
     .wrapper{
-        position: absolute;
-       top: 390px;
-        left: 50px;
+        display: none;
     }
-    .wrapper ul li i{
-        padding: 9px;
-        text-align: center;
+    .wrapperz{
+        display: block;
     }
-    .wrapper ul li{
-        height: 40px;
-        width: 40px;
-    }
+   
+    
+    
+    
  /*.header {
     height: 60px;
   width: 430px;
@@ -195,6 +194,14 @@
 
  /*----------------------------------------------BETWEEN 401PX AND 750PX---------------------------------------------------- */
 @media screen and (min-width: 401px) and (max-width:750px){
+    #edubefore{
+        margin-top: 0px!important;}
+    .wrapper{
+        display: none;
+    }
+    .wrapperz{
+        display: block;
+    }
     .bannerContent{
         width:300px;
     }
@@ -433,6 +440,13 @@
  /*----------------------------------------------SCREEN WITH MIN 750PX---------------------------------------------------- */
 @media screen and (min-width: 751px) and (max-width:999px){
 /*----------------------------------------------EXPERIENCE---------------------------------------------------- */
+    #edubefore{
+        margin-top: 0px!important;
+        padding-bottom: 30px;
+    }
+    .edu{
+        margin-bottom: 20px;
+    }
     .copy #connect{
     padding-left: 20%;
     font-weight: bold;
@@ -526,6 +540,7 @@
     }
 }
 @media screen and (min-width: 1000px) and (max-width:1155px){
+    
     .copy #connect{
     padding-left: 40%;
     font-weight: bold;
@@ -553,16 +568,17 @@
     position: absolute;
     margin-left: 8%;
   /*color: aliceblue;*/
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
   padding: 10px;
   padding-top: 40px;
   text-align:left;
 }
 .b2{
-  background-color: plum;
-  color: black;
-  border: 1px ridge plum;
+  background-color: black;
+  color: whitesmoke;
+  border:3px ridge plum; 
+  box-shadow: 0 0 10px rgba(255,255,255,0.6);
   border-radius: 18px;
   height: 40px;
   width: 150px;
