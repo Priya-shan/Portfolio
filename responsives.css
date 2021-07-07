@@ -1,0 +1,589 @@
+
+/*----------------------------------------------BELOW 400PX---------------------------------------------------- */
+@media screen and (max-width: 400px){
+    /*----------------------------------------------HOME---------------------------------------------------- */
+     #edubefore{
+        margin-top: 0px!important;}
+    .bannerContent{
+        color: whitesmoke;
+        width: 300px;
+    }
+    .name{
+        font-size: 25px;
+    }
+    .role{
+        font-size: 20px;
+    }
+    .b1{
+    padding: 7px;
+  height: 40px;
+  width:auto;
+  font-size: 15px;
+  font-weight: bold;
+  border:3px ridge plum; 
+  box-shadow: 0 0 10px rgba(255,255,255,0.6);
+   
+  
+}
+    /*----------------------------------------------ABOUT---------------------------------------------------- */
+    .curve img{
+    position: absolute;
+    height: 330px;
+    right: 0;
+    }
+    .celeb{
+        display: none;
+    }
+    .imgpriya{
+        height: 230px;
+    }
+    .one{
+    padding-left: 0;
+    padding-right: 0px;
+        padding: 35px;
+        padding-bottom: 0px;
+    }
+  .float-child {
+      position: relative;
+  width: auto;
+  float: none;
+  padding: 10px;
+  /*border: 2px solid red;*/
+}  
+  .two{
+      
+      padding-top: 0px;
+      
+  }
+  .two p{
+      font-size: 15px;
+      text-align: center;
+      width: 100%;
+  }
+  .b2{
+      margin-left: 10px;
+      width: 40%;
+      height: 30px;
+      font-size: 13px;
+  }
+    /*----------------------------------------------ABOUT SECTION---------------------------------------------------- */
+    
+     .about-tabs{
+        padding-top: 20px !important;
+        padding-bottom: 20px  !important;
+    }
+    /*----------------------------------------------SKILLS--------------------------------------------------- */
+    .flexsb{
+        display: block;
+    }
+    .skill-bars{
+        width: 90%;
+        margin-left: 5% !important;
+        
+    }
+    .skill-bars:nth-child(1){
+    margin-left: 10%;
+}
+     .skill-bars:nth-child(2){
+    margin-left: 10%;
+}
+    /*----------------------------------------------FOOTER---------------------------------------------------- */
+    .footer{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        font-size: 15px;
+        
+    }
+    
+.copy #connect{
+    padding-left:0;
+    font-weight: bolder;
+}
+    
+    .copy{
+        text-align: center;
+        display: block;
+    }
+    .copy p{
+        display: none;
+    }
+/*----------------------------------------------SOCIAL MEDIA BAR---------------------------------------------------- */
+    .wrapper{
+        display: none;
+    }
+    .wrapperz{
+        display: block;
+    }
+   
+    
+    
+    
+ /*.header {
+    height: 60px;
+  width: 430px;
+  z-index: 3;
+ 
+}*/
+    /*----------------------------------------------EXPERIENCE---------------------------------------------------- */
+    .about-section .timeline .timeline-item{
+        left: 15%;
+        
+        
+    }
+    .about-section .timeline .timeline-item .timeline-item-inner{
+        left: 10%;
+        margin: 20px 0px;
+    }
+    .about-section .timeline:before{
+        left: 5%;
+    }
+    .about-section .timeline{
+        padding: 10px 20px;
+        margin-top: 0px;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd){
+        padding-right: 0px;
+        text-align: left;
+        width: 90%;
+        margin:0;
+    }
+    .about-section .timeline .timeline-item:nth-child(even){
+    padding-left: 0px;
+        width: 90%;
+            margin:0;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd) .icon{
+    right: 0px;
+        left: -16%;
+}
+.about-section .timeline .timeline-item:nth-child(even) .icon{
+    left: -16%;
+}
+
+}
+/********************************************SPECIFICALLY FOR EDU AND NAVIGATION *******************/
+@media screen and (max-width: 400px){  
+#edu1{
+        display: none;
+    }
+    #edu2{
+        font-size: 15px;
+        display: contents;
+        /*display: contents;*/
+        text-align: center;
+        padding-bottom: 30px;
+        
+    }
+    .timeline2 li{
+        padding-bottom: 20px;
+        font-size: 15px;
+        color: whitesmoke;
+    }
+    #edu2 h1{
+        padding-bottom: 0px;
+    }
+    #edu{
+        padding: 0;
+    }
+    #edu2 ul{
+        padding-bottom: 30px;
+    }
+}
+
+
+ /*----------------------------------------------BETWEEN 401PX AND 750PX---------------------------------------------------- */
+@media screen and (min-width: 401px) and (max-width:750px){
+    #edubefore{
+        margin-top: 0px!important;}
+    .wrapper{
+        display: none;
+    }
+    .wrapperz{
+        display: block;
+    }
+    .bannerContent{
+        width:300px;
+    }
+    .name{
+        width:auto;
+        font-size: 25px;
+    }
+    .role{
+        font-size: 20px;
+    }
+    
+    .about-tabs{
+        padding-top: 20px !important;
+        padding-bottom: 20px  !important;
+    }
+     /*----------------------------------------------SKILLS--------------------------------------------------- */
+    .flexsb{
+        display: block;
+    }
+    .skill-bars{
+        width: 90%;
+        margin-left: 5% !important;
+        
+    }
+    .skill-bars:nth-child(1){
+    margin-left: 10%;
+}
+     .skill-bars:nth-child(2){
+    margin-left: 10%;
+}
+    /*----------------------------------------------EDU--------------------------------------------------- */
+    #edu1{
+        display: none;
+    }
+    #edu2{
+        font-size: 15px;
+        display: contents;
+        /*display: contents;*/
+        text-align: center;
+        padding-bottom: 30px;
+        
+    }
+    .timeline2 li{
+        padding-bottom: 20px;
+    }
+    #edu2 h1{
+        padding-bottom: 0px;
+    }
+    #edu{
+        padding: 0;
+    }
+    #edu2 ul{
+        color: whitesmoke;
+        padding-bottom: 30px;border-bottom: 1px;
+        border-bottom-style: ridge;
+        border-bottom-color:black;
+        border-bottom-color:black;
+        margin-bottom: 20px;
+    }
+     /*----------------------------------------------EXPERIENCE---------------------------------------------------- */
+    .about-section .timeline .timeline-item{
+        left: 15%;
+        
+        
+    }
+    .about-section .timeline .timeline-item .timeline-item-inner{
+        left: 10%;
+        margin: 20px 0px;
+    }
+    .about-section .timeline:before{
+        left: 5%;
+    }
+    .about-section .timeline{
+        padding: 10px 20px;
+        margin-top: 0px;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd){
+        padding-right: 0px;
+        text-align: left;
+        width: 90%;
+        margin:0;
+    }
+    .about-section .timeline .timeline-item:nth-child(even){
+    padding-left: 0px;
+        width: 90%;
+            margin:0;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd) .icon{
+    right: 0px;
+        left: -15%;
+}
+.about-section .timeline .timeline-item:nth-child(even) .icon{
+    left: -15%;
+}
+/*----------------------------------------------ABOUT---------------------------------------------------- */
+    .curve img{
+    position: absolute;
+    height: 330px;
+    right: 0;
+    }
+    .celeb{
+        display: none;
+    }
+    .one .imgpriya{
+        height: 230px;
+       
+    }
+    .one{
+    padding-left: 0;
+    padding-right: 0px;
+        padding: 35px;
+        padding-bottom: 0px;
+    }
+  .float-child {
+      position: relative;
+  width: auto;
+  float: none;
+  padding: 10px;
+  /*border: 2px solid red;*/
+}  
+  .two{
+      
+      padding-top: 0px;
+      
+  }
+  .two p{
+      font-size: 15px;
+      text-align: center;
+      width: 100%;
+  }
+  .b2{
+      margin-left: 10px;
+      width: 40%;
+      height: 30px;
+      font-size: 15px;
+  }
+    /*----------------------------------------------FOOTER---------------------------------------------------- */
+    .footer{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        font-size: 15px;
+        
+    }
+    
+.copy #connect{
+    padding-left:0;
+    font-weight: bolder;
+}
+    
+    .copy{
+        text-align: center;
+        display: block;
+    }
+    .copy p{
+        display: none;
+    }
+    /*----------------------------------------------SOCIAL MEDIA---------------------------------------------------- */
+     .wrapper{
+        position: absolute;
+       top: 390px;
+        left: 50px;
+    }
+    .wrapper ul li i{
+        padding: 9px;
+        text-align: center;
+    }
+    .wrapper ul li{
+        height: 40px;
+        width: 40px;
+    }
+    .header img{
+        margin-left:28%;
+    }
+}
+@media screen and (min-width: 601px) and (max-width:750px){
+    .name{
+        font-size: 25px;
+    }
+    .role{
+        font-size: 25px;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd) .icon{
+    
+        left: -12%;
+}
+.about-section .timeline .timeline-item:nth-child(even) .icon{
+    left: -12%;
+}
+    .about-tabs{
+        padding-top: 60px !important;
+        padding-bottom:60px  !important;
+    }
+    .header img{
+        margin-left:35%;
+    }
+    .celeb{
+        display: block;
+        width: auto;
+        height: 230px;
+        left: 15%;
+    }
+    .one .imgpriya{
+         margin-left: 25%;
+    }
+    #edu1{
+        display:contents;
+        font-size: 10px;
+        
+        
+    }
+    .timeline1{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .timeline1 li:after{
+        font-size: 11px;
+    }
+    .timeline1 li:before{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #headin{
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+    #edu2{
+        display: none;
+    }
+    .b2{
+         margin-left: 10%;
+        width:35%;
+    }
+} 
+
+ /*----------------------------------------------SCREEN WITH MIN 750PX---------------------------------------------------- */
+@media screen and (min-width: 751px) and (max-width:999px){
+/*----------------------------------------------EXPERIENCE---------------------------------------------------- */
+    #edubefore{
+        margin-top: 0px!important;
+        padding-bottom: 30px;
+    }
+    .edu{
+        margin-bottom: 20px;
+    }
+    .copy #connect{
+    padding-left: 20%;
+    font-weight: bold;
+}
+    .about-section .timeline .timeline-item{
+        left: 15%;
+        
+        
+    }
+    .about-section .timeline .timeline-item .timeline-item-inner{
+        left: 10%;
+        margin: 20px 0px;
+    }
+    .about-section .timeline:before{
+        left: 5%;
+    }
+    .about-section .timeline{
+        padding: 10px 20px;
+        margin-top: 0px;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd){
+        padding-right: 0px;
+        text-align: left;
+        width: 90%;
+        margin:0;
+    }
+    .about-section .timeline .timeline-item:nth-child(even){
+    padding-left: 0px;
+        width: 90%;
+            margin:0;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd) .icon{
+    right: 0px;
+        left: -10%;
+}
+.about-section .timeline .timeline-item:nth-child(even) .icon{
+    left: -10%;
+}
+    .timeline1 li:after{
+        font-size: 13px;
+    }
+    .timeline1 li:before{
+        font-size: 17px;
+        font-weight: bold;
+    }
+     .celeb{
+        display: block;
+        width: auto;
+        height: 230px;
+        left: 15%;
+    }
+    .imgpriya{
+        height: 230px;
+        margin-left: 25%;
+    }
+    .one{
+    padding-left: 0;
+    padding-right: 0px;
+        padding: 35px;
+        padding-bottom: 0px;
+    }
+  .float-child {
+      position: relative;
+  width: auto;
+  float: none;
+  padding: 10px;
+  /*border: 2px solid red;*/
+}  
+  .two{
+      margin: 4% 8%;
+      padding-top: 0px;
+      
+  }
+  .two p{
+      font-size: 15px;
+      text-align: center;
+      width: 100%;
+  }
+  .b2{
+      margin-left: 10px;
+      width: 40%;
+      height: 30px;
+      font-size: 15px;
+  }
+    #headin{
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+    .edu{
+        margin-top: 20px
+    }
+}
+@media screen and (min-width: 1000px) and (max-width:1155px){
+    
+    .copy #connect{
+    padding-left: 40%;
+    font-weight: bold;
+}
+ .float-container {
+
+  padding: 20px;
+}
+
+.float-child {
+  width: 40%;
+  float: left;
+  padding: 20px;
+  /*border: 2px solid red;*/
+}  
+.one{
+  padding: 20px;
+  text-align: center;
+  padding-left: 270px;
+  padding-right: 0px;
+}
+
+.two{
+    width: 30%;
+    position: absolute;
+    margin-left: 8%;
+  /*color: aliceblue;*/
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  padding-top: 40px;
+  text-align:left;
+}
+.b2{
+  background-color: black;
+  color: whitesmoke;
+  border:3px ridge plum; 
+  box-shadow: 0 0 10px rgba(255,255,255,0.6);
+  border-radius: 18px;
+  height: 40px;
+  width: 150px;
+  font-size: 17px;
+  font-weight: bold;
+    margin: 5px 0px;
+} 
+}
