@@ -610,7 +610,7 @@ div.row{
     border-radius: 0 0 20px 20px;
   position: fixed;
   width: 100%;
-  z-index: 3;
+  z-index: 900;
   padding: 0px 20px;
 }
 
@@ -729,7 +729,7 @@ div.row{
   top: 0;
 }
 .header{
-    z-index: 6;
+   /* z-index: 6;*/
 }
 /* 48em = 768px */
 
@@ -759,6 +759,7 @@ div.row{
 /* ---------------------------------------SIDE SOCIAL MEDIA BAR--------------------------------------------*/
 .wrapperz{
     margin-top: 40px;
+    z-index:800;
 }
  .wrapperz ul {
   list-style: none;
